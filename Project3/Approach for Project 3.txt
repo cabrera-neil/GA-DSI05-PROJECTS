@@ -1,0 +1,27 @@
+Approach for Project 3
+-EDA
+	Visualise
+	Perform Analysis
+	Impute when Necessary
+-Model 1
+	Make assumptions and select fixed features
+	Get the dummy variables
+	Feature Selection
+		KBest (f_classif, chi2)
+		RFECV
+		Lasso
+		Compare
+	Build Model (MLR) and plot residuals
+
+-Model 2
+	from Model 1, determine renovatable features
+	Get the dummary variables
+	Feature Selection
+		same as Model 1
+	Build Model (MLR) and plot residuals
+	Compare the coefficients to model 1
+	Explain the variance with model 1
+
+Bonus
+	for now see if Random Forest can work
+	check the Bias vs Variance
